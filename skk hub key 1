@@ -41,7 +41,7 @@ GetKey.Text = "GET KEY"
 GetKey.TextColor3 = Color3.fromRGB(0, 0, 0)
 GetKey.TextSize = 22.000
 GetKey.MouseButton1Click:Connect(function()
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Copied!"; Text = "PASTE IT ON SEARCH !"; Icon = "rbxassetid://9327507243"; Duration = 10 })
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Copied!"; Text = "PASTE IT ON SEARCH !"; Icon = "rbxassetid://7279137105"; Duration = 10 })
 	wait(0.7)
 	setclipboard("https://controlc.com/fdbe7c26")
 end)
